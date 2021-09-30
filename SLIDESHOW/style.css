@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.smartphone {
+  border: 2px solid black;
+  width: 800px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 0 1em black;
+  margin: 100px auto;
+  position: relative;
+  z-index: 999999999;
+  background-image: url("/PROJETOS-JS/SLIDESHOW/img/chrono.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.voltar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 348px;
+  width: 60px;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.frente {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  height: 348px;
+  width: 60px;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.frente.show,
+.voltar.show {
+  opacity: 0.5;
+  background-color: grey;
+  transition: 0.5s;
+}
