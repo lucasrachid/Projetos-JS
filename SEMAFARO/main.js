@@ -29,10 +29,14 @@ desativar.addEventListener("click", () => {
 
 automatico.addEventListener("click", () => {
   stopAutomatic();
-  return setInterval(() => {
-    changeColor();
-  }, 2000);
+  turnOn.automatic();
 });
+// automatico.addEventListener("click", () => {
+//   stopAutomatic();
+//   return setInterval(() => {
+//     changeColor();
+//   }, 2000);
+// });
 
 const nextIndex = () => {
   //   if (colorIndex < 3) {

@@ -17,7 +17,8 @@
   z-index: 999999999;
   background-image: url("/PROJETOS-JS/SLIDESHOW/img/chrono.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
+  transition: 0.5s;
 }
 
 .voltar {
