@@ -35,6 +35,7 @@ automatico.addEventListener("click", () => {
 //   stopAutomatic();
 //   return setInterval(() => {
 //     changeColor();
+
 //   }, 2000);
 // });
 
